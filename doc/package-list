@@ -1,0 +1,11 @@
+com.whitecanyongames.editor
+com.whitecanyongames.engine
+com.whitecanyongames.engine.camera
+com.whitecanyongames.engine.entity
+com.whitecanyongames.engine.entity.utilities
+com.whitecanyongames.engine.mesh
+com.whitecanyongames.engine.object
+com.whitecanyongames.engine.terrain
+demogame
+templates.basetemplate
+templates.fpstemplate
