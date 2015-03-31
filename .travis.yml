@@ -1,4 +1,5 @@
 language: java
+before_script: chmod +x grailsw
 script: ./travis-ci_build.sh
 
 jdk: oraclejdk8
