@@ -1,4 +1,4 @@
 language: java
-script: "./travis-ci_build.sh"
+script: ./travis-ci_build.sh
 
 jdk: oraclejdk8
