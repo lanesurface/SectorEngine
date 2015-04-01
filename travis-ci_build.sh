@@ -1,4 +1,3 @@
 echo "Starting build for Sector Engine..."
-javac src/com/whitecanyongames/*.java
+javac src/demogame/DemoGame.java
 echo "Build completed."
-return 0
