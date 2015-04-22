@@ -14,7 +14,7 @@
         <pathelement location="libs/lwjgl-2.9.1/jar/lwjgl_util.jar"/>
         <pathelement location="libs/slick-util/lib/slick-util.jar"/>
         <pathelement location="res"/>
-        <pathelement location="../../Downloads/lwjgl/jar/lwjgl.jar"/>
+        <pathelement location="libs/lwjgl/jar/lwjgl.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
@@ -57,7 +57,7 @@
             <classpath refid="SectorEngine.classpath"/>
         </java>
     </target>
-    <target name="DemoGame (1)">
+    <target name="DemoGame">
         <java classname="demogame.DemoGame" failonerror="true" fork="yes">
             <classpath refid="SectorEngine.classpath"/>
         </java>
