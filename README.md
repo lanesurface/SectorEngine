@@ -1,5 +1,8 @@
 # SectorEngine
 An OpenGL 3D game engine
 
-See https://github.com/siliconincorporated/SectorEngine/tree/Java/
-See https://github.com/siliconincorporated/SectorEngine/tree/C++/
+<h2>Links</h2>
+<ul>
+  <li>See https://github.com/siliconincorporated/SectorEngine/tree/Java/</li>
+  <li>See https://github.com/siliconincorporated/SectorEngine/tree/C++/</li>
+</ul>
