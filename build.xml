@@ -52,28 +52,8 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
-    <target name="BaseTemplate">
-        <java classname="templates.basetemplate.BaseTemplate" failonerror="true" fork="yes">
-            <classpath refid="SectorEngine.classpath"/>
-        </java>
-    </target>
     <target name="DemoGame">
         <java classname="demogame.DemoGame" failonerror="true" fork="yes">
-            <classpath refid="SectorEngine.classpath"/>
-        </java>
-    </target>
-    <target name="Editor">
-        <java classname="com.whitecanyongames.editor.Editor" failonerror="true" fork="yes">
-            <classpath refid="SectorEngine.classpath"/>
-        </java>
-    </target>
-    <target name="FPSTemplate">
-        <java classname="templates.fpstemplate.FPSTemplate" failonerror="true" fork="yes">
-            <classpath refid="SectorEngine.classpath"/>
-        </java>
-    </target>
-    <target name="HeightMapGenerator">
-        <java classname="com.whitecanyongames.engine.terrain.HeightMapGenerator" failonerror="true" fork="yes">
             <classpath refid="SectorEngine.classpath"/>
         </java>
     </target>
