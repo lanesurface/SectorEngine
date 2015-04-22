@@ -1,8 +1,9 @@
 language: java
-sudo: required
-script: ./travis-ci_build.sh
 
 jdk: oraclejdk8
+
+sudo: required
+script: ./travis-ci_build.sh
 
 branches:
   only:
