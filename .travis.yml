@@ -3,3 +3,7 @@ sudo: required
 script: ./travis-ci_build.sh
 
 jdk: oraclejdk8
+
+branches:
+  only:
+    - Java
